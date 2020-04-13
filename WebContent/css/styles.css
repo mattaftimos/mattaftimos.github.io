@@ -1,0 +1,371 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+title:before {
+content: none;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #3993DD;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  background: #3993DD;
+}
+#nav-list a:hover {
+  color:#28559A;
+
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+  border-radius: 12px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-fixed-top{
+  position: sticky;
+  position: -webkit-sticky;
+
+}
+.container-fluid{
+	background-color:#d4d4d4;
+	color: white;
+}
+
+/* END HEADER */
+
+
+
+
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+a {
+	color: grey;
+	font-size:16px;
+}
+
+h1 {
+	margin: 100px 0px 0px 0px;
+}
+
+.carousel-caption {
+	text-align: left;
+}
+
+.carousel-caption.right {
+	text-align: right;
+}
+
+
+
+.container {
+	
+	width:100%;
+	margin: 0px 0px 10px 0px;
+	
+}
+.carousel-inner img {
+  margin: auto;
+}
+
+.container.carousel {
+	
+	margin: 25px 0px 50px 0px;
+}
+
+
+.container.marketing{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+.container.signup{
+	margin-bottom:150px;
+}
+
+
+.featurette-text {
+	padding: 0px 10px 0px 10px;
+}
+.featurette-text h2{
+	text-align: left;
+}
+.featurette-text p{
+	text-align: left;
+}
+
+/* Footer */
+.footer {
+   position: sticky;
+  position: -webkit-sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #150734;
+  color: white;
+  text-align: center; 
+  margin-top: 225px;
+}
+
+.container.search {
+
+	margin-bottom: 150px;
+}
+
+/* social media icon css @ footer */
+.icon-right{
+	float:right; 
+}
+
+
+/* Floating line @ footer */
+hr { 
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width:100%;
+  border-style: inset;
+  border-width: 1px;
+  color: grey;
+  noshade;
+} 
+/* Footer Header/logo Title */
+.footer-header {
+  overflow: hidden;
+  background-color: #150734;
+  top: 0;
+}
+.footer-header a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Right-aligned link */
+.footer-header a.right {
+  float: right;
+}
+
+.footer-header a.active {
+  background-color: #150734;
+  color: white;
+}
+/* Active/current link */
+.footer-header a.active.log {
+  background-color: #150734;
+  color: white;
+}
+
+
+/* Active/current link */
+.footer-header a.right.active {
+  background-color: #150734;
+  color: white;
+}
+
+/* Footer navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.footer-navbar {
+  overflow: hidden;
+  background-color: #150734;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.footer-navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.footer-navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.footer-navbar a:hover {
+  color: white;
+}
+
+/* Active/current link */
+.footer-navbar a.active {
+  background-color: #150734;
+  color: white;
+}
+/* Active/current link */
+.footer-navbar a.active.log {
+  background-color: #150734;
+  color: white;
+}
+
+
+/* Active/current link */
+.footer-navbar a.right.active {
+  background-color: #150734;
+  color: white;
+}
+/* Footer */
+.footer {
+  background: #ddd;
+  background-color: #150734;
+}
+
+.fa {
+ 
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  height:50px;
+  width:50px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+.footer-navbar a{
+   	float: none;
+    width: 100%;
+  }
+  
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+    
+  }
+  .icon-right{
+	float:none; 
+	 width: 100%;
+}
+  /* End Header */
+
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  .icon-right{
+	float:none; 
+	 width: 100%;
+}
+  .footer-navbar a{
+   	float: none;
+    width: 100%;
+  }
+  
+}
+
+
+
+
+}
